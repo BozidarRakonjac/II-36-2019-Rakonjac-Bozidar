@@ -135,7 +135,7 @@ public class SortForm extends JFrame {
 				deleteStackDialog.setVisible(true);
 
 				if(deleteStackDialog.isDelete()) {
-					rectangleArrayList.removeFirst();
+				//	rectangleArrayList.removeFirst();
 					listModel.removeElementAt(0);
 				}
 			}
